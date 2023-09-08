@@ -1,0 +1,39 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey"],
+        "responses": [ "Hi there! How can I help?","Hi there, what can I do for you?"]
+      },
+      {
+        "tag": "Services",
+        "patterns": ["What services do you offer for bikes?","What's the process for scheduling bike maintenance?",
+        "Tell me about your services", "What bike services do you offer?", "Service details"],
+        "responses": ["We offer a range of bike maintenance services, including regular tune-ups, brake adjustments, tire replacements, chain lubrication, and more. Feel free to ask for specific details or schedule an appointment."]
+    
+      },
+      {
+        "tag": "Appointment",
+        "patterns": ["Book an appointment","I want to book  appointment for my bike.", "How to book an appointment"],
+        "responses": ["Scheduling a appointment for our service is very easy! You can either call us at +92 0123440001 or  visit our website to fill the appointment form for booking."    ]
+      },
+      {
+        "tag": "Cancellations",
+        "patterns": ["Can I cancel my  appointment?","What's your cancellation policy for service appointments?"],
+        "responses": [ "Of course, you can cancel your bike service appointment within 24 hours. Please provide us  your booking details, and we'll assist you in canceling the appointment. "]
+    
+      },
+      {
+        "tag": "Thanks",
+        "patterns": ["Thank you","Thanks","Thanks for your time","Thanks for your guidance"],
+        "responses": ["You're welcome. Let us know if there's anything else we can do for you."]
+  
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Goodbye","Bye","See you later"],
+        "responses": ["See you ,thanks for visiting!","Goodbye! Have a great day!"]
+      }
+    ]
+  }
+  
